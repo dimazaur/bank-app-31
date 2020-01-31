@@ -1,0 +1,11 @@
+.container{
+    width: 80%;
+    margin:20px auto;
+  }
+
+  mat-toolbar > span{
+      cursor: pointer;
+      &:focus{
+          outline: none;
+      }
+  }

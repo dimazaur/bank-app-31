@@ -1,0 +1,27 @@
+.full-width-table {
+  width: 100%;
+}
+
+.search-panel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .select-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    &>*{
+      margin-left: 2rem;
+    }
+  }
+  .search_input{
+    width: 100%;
+  }
+
+}
+
+
+
+
+
